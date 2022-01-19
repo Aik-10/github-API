@@ -22,5 +22,3 @@ class Api {
 }
 
 new Api()
-
-// if( !process.env.DISCORD_TOKEN || process.env.DISCORD_TOKEN === '') {}
