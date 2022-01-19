@@ -1,11 +1,11 @@
 module.exports = {
     files: {
-        pushBeforePullFiles: [
-            `src/index.js`,
-            `src/config.js`
+        root: `C:/Users/Adminstrator/Desktop/server`, /* Your git folder path */
+        PushFiles: [
+           /*  `index.js`, */
         ],
     },
-    discordLog: {
+    /* discordLog: {
         enabled: true,
         logo: "https://cdn.discordapp.com/attachments/756985427948339241/933128492692942859/sun-airplane-01.png",
         hideWords: [ "HIDE", "HIDDEN", "MERGE", "BRANCH", "REVERT", "REVERTS" ],
@@ -15,5 +15,5 @@ module.exports = {
         devPatch: [
             { guild: "465848365150896139", channels: "906142904383328316" }
         ]
-    }
+    } */
 }
