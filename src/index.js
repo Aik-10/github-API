@@ -13,6 +13,8 @@ class Api {
         
         this.log.info('Api Server starting...');
 
+        // if( !process.env.DISCORD_TOKEN || process.env.DISCORD_TOKEN === '') {}
+
         this.apiHandler = new apiHandler(this);
         
         this.api = new apiExpress(this);
@@ -20,4 +22,5 @@ class Api {
 
   }
 }
+
 new Api()
